@@ -1,0 +1,62 @@
+.game-bg {
+  background: url(images/Ludo.jpg);
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Montserrat", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dicets {
+  transition: visibility 0s, opacity 0.5s;
+}
+.dice-design {
+  /* margin-top: 60px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dicets {
+  padding-top: 60px;
+}
+.game-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 340px;
+}
+.roll-dice {
+  border: solid;
+  border-radius: 100px;
+  height: 75px;
+  width: 75px;
+  cursor: pointer;
+}
+.score {
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  display: inline;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) {
+  .game-bg {
+    top: 0px;
+    background: url(images/Ludo.jpg);
+    background-size: contain;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Montserrat", sans-serif;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+  }
+}
